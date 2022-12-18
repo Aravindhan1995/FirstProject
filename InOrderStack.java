@@ -28,7 +28,7 @@ class InOrderTraversal {
               {
                   break;
               }
-              tree = tree.pop();
+              tree = stack.pop();
               System.out.println(tree.value);
               tree = tree.right;
           }
